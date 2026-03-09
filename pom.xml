@@ -72,4 +72,10 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <url>http://54.193.21.120:8081/repository/maven-release-1/</url>
+    </repository>
+ </distributionManagement>
 </project>
